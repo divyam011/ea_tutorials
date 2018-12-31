@@ -10,7 +10,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-        <link rel ="stylesheet" src="css/index.css">
+        <link rel ="stylesheet" href = "css/index.css">
         <title></title>
     </head>
     <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
