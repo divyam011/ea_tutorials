@@ -22,22 +22,22 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>                        
               </button>
-              <a class="navbar-brand" href="#myPage">Logo</a>
+                <a class="navbar-brand" href="#myPage"><img src="ea_logo.png" alt="logo" style="width:40px; margin-top: -10px;
+    margin-left: -35px;"></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#services">SERVICES</a></li>
-                <li><a href="#portfolio">PORTFOLIO</a></li>
-                <li><a href="#pricing">PRICING</a></li>
+                <li><a href="#index.php">HOME</a></li>
+                <li><a href="library.php">LIBRARY</a></li>
+                <li><a href="#feedback">FEEDBACK</a></li>
                 <li><a href="#contact">CONTACT</a></li>
               </ul>
             </div>
           </div>
         </nav>
         <div class="jumbotron text-center">
-        <h1>Company</h1> 
-        <p>We specialize in blablabla</p> 
+        <h1>EKLAVYA ACADEMY</h1> 
+        <p>We specialize in teaching.</p> 
         
       </div>
 
