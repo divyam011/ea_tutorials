@@ -14,7 +14,7 @@
         <title></title>
     </head>
     <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-default navbar-fixed-top " style="background-color: #212020">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -27,15 +27,15 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#index.php">HOME</a></li>
+                <li><a href="index.php">HOME</a></li>
                 <li><a href="library.php">LIBRARY</a></li>
-                <li><a href="#feedback">FEEDBACK</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="feedback.php">FEEDBACK</a></li>
+                
               </ul>
             </div>
           </div>
         </nav>
-        <div class="jumbotron text-center">
+        <div class="jumbotron text-center" style="background-color: #212020">
         <h1>EKLAVYA ACADEMY</h1> 
         <p>We specialize in teaching.</p> 
         

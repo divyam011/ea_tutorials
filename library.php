@@ -13,14 +13,14 @@
         <link rel ="stylesheet" href = "css/index.css">
         <title></title>
     </head>
-    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-        <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container">
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" >
+        <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #212020">
+          <div class="container"  >
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-                <span class="icon-bar"></span>                        
+                <span class="icon-bar"></span>
               </button>
                 <a class="navbar-brand" href="#myPage"><img src="ea_logo.png" alt="logo" style="width:40px; margin-top: -10px;
     margin-left: -35px;"></a>
@@ -29,58 +29,41 @@
               <ul class="nav navbar-nav navbar-right">
                   <li><a href="index.php">HOME</a></li>
                 <li><a href="library.php">LIBRARY</a></li>
-                <li><a href="#feedback">FEEDBACK</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="feedback.php">FEEDBACK</a></li>
               </ul>
             </div>
           </div>
         </nav>
-        
+        <br><br><br>
         <!-- Page Content -->
     <div class="container">
 
-      <!-- Page Heading -->
-      <h1 class="my-4" style="margin-top: 66px;">Page Heading
-        <small>Secondary Text</small>
-      </h1>
-
       <div class="row">
-        <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="col-lg-6 col-sm-6 portfolio-item">
           <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="https://www.inkfreezer.com/root_upld/general-news/2018/03/ART747640414134491/org_09846201803281238.jpg" alt="" style="width:400px; "></a>
+              <a href="#"><img class="card-img-top" src="http://www.briskmind.in/wp-content/uploads/2016/11/aptitude-test.png" alt="" style="width:209px; "></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Project One</a>
+                <a href="#">Aptitude</a>
               </h4>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="col-lg-6 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="https://apprecs.org/ios/images/app-icons/256/cf/1062496207.jpg" alt=""></a>
+              <a href="#"><img class="card-img-top" src="http://www.hte.rajasthan.gov.in/dept//department_of_technical_education/btu/uploads/images/offered_cources/b-tech-admission-2016-250x250.png" alt="" style="width: 200px;"></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Project Two</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="https://apprecs.org/ios/images/app-icons/256/cf/1062496207.jpg" alt="" style="width: 200px;"></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Three</a>
+                <a href="#">B. TECH</a>
               </h4>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
             </div>
           </div>
         </div>
-        
+
       </div>
-               
+
       <!-- /.row -->
 
       <!-- Pagination -->
