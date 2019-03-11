@@ -38,30 +38,32 @@
         <div class="container">
           <div class="shade">
         <div class="blackboard">
+          <form method="post" action="addfeedback.php">
                 <div class="form" action="addfeedback.php">
                         <p>
                                 <label>Name: </label>
-                                <input type="text" />
+                                <input type="text" name="name"/>
                         </p>
                         <p>
                                 <label>Email: </label>
-                                <input type="text" />
+                                <input type="text" name="email"/>
                         </p>
                         <p>
                                 <label>Phone: </label>
-                                <input type="tel" />
+                                <input type="tel" name="phone"/>
                         </p>
                         <p>
                                 <label>Subject: </label>
-                                <input type="text" />
+                                <input type="text" name="subject"/>
                         </p>
                         <p>
-                                <label>Message: </label><textarea></textarea>
+                                <label>Message: </label><textarea name="message"></textarea>
                         </p>
                         <p class="wipeout">
                                 <input type="submit" value="Send" />
                         </p>
                 </div>
+          </form>
         </div>
 </div>
         </div>
