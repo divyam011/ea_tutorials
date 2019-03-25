@@ -49,6 +49,38 @@
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
             </div>
           </div>
+          <!-- POPUPS -->
+          <div class="supreme-container">
+      <!-- Button to Open the Modal -->
+
+            <button type="button" class="btn btn-primary mybtn " data-toggle="modal" data-target="#myModal">
+              Click Me !
+            </button>
+          </div>
+      <!-- The Modal -->
+          <div class="modal fade" id="myModal">
+            <div class="modal-dialog" style="margin-top: 100px;">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                <center>  <span class="modal-title">Category</span></center>
+                  <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+
+                <!-- Modal body -->
+
+            <ul class="list-group" id="myList">
+              <li><a href="Arithmetic_apt/arith.php" class="list-group-item list-group-item-action">Arithmetic Aptitude</a></li>
+              <li><a href="#" class="list-group-item list-group-item-action">Data Interpretation</a></li>
+              <li><a href="#" class="list-group-item list-group-item-action">Verbal Ability</a></li>
+              <li><a href="#" class="list-group-item list-group-item-action">Logical Reasoning</a></li>
+              <li><a href="#" class="list-group-item list-group-item-action">Verbal Reasoning</a></li>
+              <li><a href="#" class="list-group-item list-group-item-action">Non Verbal Reasoning</a></li>
+            </ul>
+            </div>
+            </div>
+          </div>
         </div>
         <div class="col-lg-6 col-sm-6 portfolio-item">
           <div class="card h-100">
@@ -66,31 +98,19 @@
 
       <!-- /.row -->
 
-      <!-- Pagination -->
-      <ul class="pagination justify-content-center">
-        <li class="page-item">
-          <a class="page-link" href="#" aria-label="Previous">
-            <span aria-hidden="true">&laquo;</span>
-            <span class="sr-only">Previous</span>
-          </a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">1</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">2</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">3</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#" aria-label="Next">
-            <span aria-hidden="true">&raquo;</span>
-            <span class="sr-only">Next</span>
-          </a>
-        </li>
-      </ul>
+
 
     </div>
 </body>
 </html>
+
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myList li").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
