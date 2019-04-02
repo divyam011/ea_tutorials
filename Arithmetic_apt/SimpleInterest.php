@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -21,76 +21,38 @@
 
 <body>
 
-    <div class="wrapper">
-        <!-- Sidebar Holder -->
-        <nav id="sidebar">
-            <div class="sidebar-header">
-                <h3>Bootstrap Sidebar</h3>
-            </div>
+    <?php include 'ar_sidebar.php' ?>
 
-            <ul class="list-unstyled components">
-                <p>Dummy Heading</p>
-                <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
-                </li>
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
+            <p><strong>Simple Interest</strong></p>
+            <ul>
+            <li style="font-weight: 400;"><span style="font-weight: 400;">Interest is a fee paid by a borrower of assets to the owner as a form of compensation for the use of the assets. It is most commonly the price paid for the use of borrowed money, or money earned by deposited funds.</span></li>
+            <li style="font-weight: 400;"><span style="font-weight: 400;">When money is borrowed, interest is typically paid to the lender as a percentage of the principal, the amount owed to the lender. The percentage of the principal that is paid as a fee over a certain period of time (typically one month or year) is called the interest rate.</span></li>
+            <li style="font-weight: 400;"><span style="font-weight: 400;">There are three components to calculate simple interest: principal (the amount of money borrowed), interest rate and time.</span></li>
             </ul>
-
-            <ul class="list-unstyled CTAs">
-                <li>
-                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
-                </li>
-                <li>
-                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
-                </li>
-            </ul>
-        </nav>
-
-        <!-- Page Content Holder -->
-        <div id="content">
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-
-                    <button type="button" id="sidebarCollapse" class="navbar-btn">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-align-justify"></i>
-                    </button>
-
-                </div>
-            </nav>
-
-            <h2>Collapsible Sidebar Using Bootstrap 4</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <div class="line"></div>
-
-            <h2>Lorem Ipsum Dolor</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <div class="line"></div>
-
-            <h2>Lorem Ipsum Dolor</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <div class="line"></div>
-
-            <h3>Lorem Ipsum Dolor</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>&nbsp;</p>
+            <p><strong>Formula for calculating simple interest:</strong></p>
+            <p><span style="font-weight: 400;">S.I. = (PxRxT)/100</span></p>
+            <p><span style="font-weight: 400;">Where,</span></p>
+            <p><span style="font-weight: 400;">I = interest</span></p>
+            <p><span style="font-weight: 400;">P = principal</span></p>
+            <p><span style="font-weight: 400;">R = % interest rate (per year)</span></p>
+            <p><span style="font-weight: 400;">T = time (in years or fraction of a year)</span></p>
+            <p>&nbsp;</p>
+            <p><strong>Note:</strong><span style="font-weight: 400;"> rearrange these terms to find out the variable as per need. </span></p>
+            <p>&nbsp;</p>
+            <p><span style="font-weight: 400;">Example:</span></p>
+            <p><span style="font-weight: 400;"> Akash borrowed ₹10,000 from the bank to purchase a TV. He agreed to repay the amount in 8 months, plus simple interest at an interest rate of 10% per annum (year). If he repays the full amount of ₹ 10,000 in eight months, the interest would be:</span></p>
+            <p><span style="font-weight: 400;">Ans:</span></p>
+            <p><span style="font-weight: 400;">P = ₹ 10,000</span></p>
+            <p><span style="font-weight: 400;">r = 10 (10% per year) </span></p>
+            <p><span style="font-weight: 400;">t = 8/12 (this denotes the fraction of a year)</span></p>
+            <p>&nbsp;</p>
+            <p><span style="font-weight: 400;">Applying the above formula, interest would be</span></p>
+            <p><span style="font-weight: 400;">I = ₹ [10,000*(10)*(8/12)]/100</span></p>
+            <p><span style="font-weight: 400;">I = ₹ 667</span></p>
+            <p><span style="font-weight: 400;">If he repays the amount of ₹ 10,000 in fifteen months, the only change is with time. Therefore, his interest would be:</span></p>
+            <p><span style="font-weight: 400;">I = ₹ [10,000*(10)*(15/12)]/100</span></p>
+            <p><span style="font-weight: 400;">I = ₹ 1,250</span></p>
         </div>
     </div>
 

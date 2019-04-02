@@ -62,6 +62,7 @@ a, a:hover, a:focus {
     max-width: 250px;
     background: #7386D5;
     color: #fff;
+    
     transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
     transform-origin: bottom left;
 }
